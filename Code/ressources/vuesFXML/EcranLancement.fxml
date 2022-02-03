@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<GridPane id="start_body" prefHeight="600" prefWidth="1000" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ViewManager">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+          <Text id="start_labels" onMouseClicked="#lancer_rules" text="RULES" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="50.0" top="50.0" />
+         </GridPane.margin></Text>
+      <GridPane GridPane.columnSpan="2" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+             <Text id="start_title" text="It's Flows" textAlignment="CENTER" GridPane.halignment="CENTER" />
+             <TextField fx:id="textFieldUsername" alignment="CENTER" maxWidth="250.0" minHeight="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+             <Button id="button" fx:id="buttonGame" alignment="CENTER" onAction="#lancer_jeu" text="Start" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+                <Text id="start_names" text="COUCHOT Jaden">
+               <VBox.margin>
+                  <Insets bottom="10.0"/>
+               </VBox.margin></Text>
+                <Text id="start_names" text="MOREL Mathieu" />
+         </children>
+      </VBox>
+   </children>
+</GridPane>

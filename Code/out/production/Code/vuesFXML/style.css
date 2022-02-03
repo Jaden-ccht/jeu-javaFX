@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Press Start 2P';
+    src: url("/font/PressStart.ttf")format("ttf");
+}
+
+#start_body{
+    -fx-background-image: url("/images/startimage.png");
+    -fx-background-size: cover;
+}
+
+#button{
+    -fx-font-family:"Press Start 2P";
+    -fx-font-size: 20px;
+    -fx-background-color : #ebb12a;
+}
+
+
+#start_labels{
+    -fx-font-family:"Press Start 2P";
+    -fx-font-size: 15px;
+}
+
+#start_title{
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 40px;
+}
+
+#score{
+     -fx-font-family: "Press Start 2P";
+     -fx-font-size: 30px;
+}
+
+#square_background{
+   -fx-background-color: #a6ede2;
+}
+
+#start_field{
+    -fx-font-family: "Ubuntu";
+    -fx-font-size: 15px;
+}
+#rules_field{
+     -fx-font-family: "Ubuntu";
+     -fx-font-size: 16px;
+     -fx-font-weight: bold;
+}
+
+#start_names{
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 10px;
+}
+
+#laliste{
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 10px;
+}

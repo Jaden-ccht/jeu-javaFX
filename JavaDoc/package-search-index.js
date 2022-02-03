@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"launcher"},{"l":"modele"},{"l":"modele.entities"},{"l":"modele.gameLoop"},{"l":"modele.gamePlayer"},{"l":"modele.movements"},{"l":"modele.spawners"},{"l":"persistance"},{"l":"views"}];updateSearchResults();
